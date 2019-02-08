@@ -201,24 +201,24 @@
 <smd name="34" x="0.1" y="7.7" dx="3" dy="0.8" layer="16" rot="R180"/>
 <smd name="35" x="0.1" y="8.8" dx="3" dy="0.8" layer="16" rot="R180"/>
 <smd name="36" x="0.1" y="9.9" dx="3" dy="0.8" layer="16" rot="R180"/>
-<pad name="37" x="10" y="1.1" drill="0.5" diameter="0.8"/>
-<pad name="38" x="10" y="2.2" drill="0.5" diameter="0.8"/>
-<pad name="39" x="10" y="3.3" drill="0.5" diameter="0.8"/>
-<pad name="40" x="10" y="4.4" drill="0.5" diameter="0.8"/>
-<pad name="41" x="10" y="5.5" drill="0.5" diameter="0.8"/>
-<pad name="42" x="10" y="6.6" drill="0.5" diameter="0.8"/>
-<pad name="43" x="10" y="7.7" drill="0.5" diameter="0.8"/>
-<pad name="44" x="10" y="8.8" drill="0.5" diameter="0.8"/>
-<pad name="45" x="10" y="9.9" drill="0.5" diameter="0.8"/>
-<pad name="46" x="0" y="1.1" drill="0.5" diameter="0.8"/>
-<pad name="47" x="0" y="2.2" drill="0.5" diameter="0.8"/>
-<pad name="48" x="0" y="3.3" drill="0.5" diameter="0.8"/>
-<pad name="49" x="0" y="4.4" drill="0.5" diameter="0.8"/>
-<pad name="50" x="0" y="5.5" drill="0.5" diameter="0.8"/>
-<pad name="51" x="0" y="6.6" drill="0.5" diameter="0.8"/>
-<pad name="52" x="0" y="7.7" drill="0.5" diameter="0.8"/>
-<pad name="53" x="0" y="8.8" drill="0.5" diameter="0.8"/>
-<pad name="54" x="0" y="9.9" drill="0.5" diameter="0.8"/>
+<pad name="37" x="10" y="1.1" drill="0.6" diameter="0.8"/>
+<pad name="38" x="10" y="2.2" drill="0.6" diameter="0.8"/>
+<pad name="39" x="10" y="3.3" drill="0.6" diameter="0.8"/>
+<pad name="40" x="10" y="4.4" drill="0.6" diameter="0.8"/>
+<pad name="41" x="10" y="5.5" drill="0.6" diameter="0.8"/>
+<pad name="42" x="10" y="6.6" drill="0.6" diameter="0.8"/>
+<pad name="43" x="10" y="7.7" drill="0.6" diameter="0.8"/>
+<pad name="44" x="10" y="8.8" drill="0.6" diameter="0.8"/>
+<pad name="45" x="10" y="9.9" drill="0.6" diameter="0.8"/>
+<pad name="46" x="0" y="1.1" drill="0.6" diameter="0.8"/>
+<pad name="47" x="0" y="2.2" drill="0.6" diameter="0.8"/>
+<pad name="48" x="0" y="3.3" drill="0.6" diameter="0.8"/>
+<pad name="49" x="0" y="4.4" drill="0.6" diameter="0.8"/>
+<pad name="50" x="0" y="5.5" drill="0.6" diameter="0.8"/>
+<pad name="51" x="0" y="6.6" drill="0.6" diameter="0.8"/>
+<pad name="52" x="0" y="7.7" drill="0.6" diameter="0.8"/>
+<pad name="53" x="0" y="8.8" drill="0.6" diameter="0.8"/>
+<pad name="54" x="0" y="9.9" drill="0.6" diameter="0.8"/>
 <pad name="55" x="1.1" y="1.1" drill="0.5" diameter="0.8"/>
 <pad name="56" x="1.1" y="2.2" drill="0.5" diameter="0.8"/>
 <pad name="57" x="1.1" y="3.3" drill="0.5" diameter="0.8"/>
@@ -2565,8 +2565,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="U$2" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$3" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$5" library="SparkFun-IC-Power" deviceset="TLV755P" device=""/>
-<part name="C1" library="rc-master-smd" deviceset="C_" device="0201"/>
-<part name="C4" library="rc-master-smd" deviceset="C_" device="0201"/>
+<part name="C1" library="rc-master-smd" deviceset="C_" device="0201" value="4.7u"/>
+<part name="C4" library="rc-master-smd" deviceset="C_" device="0201" value="2.2u"/>
 <part name="U$6" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$11" library="qfn16" deviceset="DRV8833C" device=""/>
 <part name="U$10" library="microbuilder" deviceset="GND" device=""/>
@@ -2574,13 +2574,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="U$13" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$14" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$15" library="microbuilder" deviceset="GND" device=""/>
-<part name="C2" library="rc-master-smd" deviceset="C_" device="0201"/>
-<part name="C3" library="rc-master-smd" deviceset="C_" device="0201"/>
+<part name="C2" library="rc-master-smd" deviceset="C_" device="0201" value="4.7u"/>
+<part name="C3" library="rc-master-smd" deviceset="C_" device="0201" value="2.2u"/>
 <part name="U$16" library="qfn16" deviceset="DRV8833C" device=""/>
 <part name="U$17" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$4" library="MSK-12C02 Switch SPDT" deviceset="MSK-12C02_SMD_SPDT_SWITCH_NOCLIP" device=""/>
 <part name="LIPO_IN" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP11SQ" package3d_urn="urn:adsk.eagle:package:27965/1"/>
-<part name="C5" library="rc-master-smd" deviceset="C_" device="0201"/>
+<part name="C5" library="rc-master-smd" deviceset="C_" device="0201" value="2.2u"/>
 <part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP07SQ" package3d_urn="urn:adsk.eagle:package:27955/1"/>
 <part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP07SQ" package3d_urn="urn:adsk.eagle:package:27955/1"/>
 <part name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP07SQ" package3d_urn="urn:adsk.eagle:package:27955/1"/>
